@@ -1,48 +1,91 @@
+<div align="center">
+
 # 📊 Instagram Follow Checker
 
-A modern browser extension for **Brave** and **Google Chrome** that helps you analyze your Instagram followers directly from your browser.
+### A Modern Instagram Followers Analytics Extension
 
-> No login required. No server. No tracking. Everything runs locally.
+Analyze your Instagram followers directly from your browser.
 
----
-
-## ✨ Features
-
-- 👥 View users who don't follow you back
-- ❤️ View mutual followers
-- ⭐ View fans (users who follow you but you don't follow back)
-- 📉 Detect unfollowers using local snapshots
-- 📈 Detect new followers
-- ➕ Detect new following
-- 📊 Overview dashboard with statistics
-- 🔍 Search and filter accounts
-- 📂 Export data to CSV
-- 📄 Export data to JSON
-- 🌙 Dark Mode
-- ☀️ Light Mode
-- 🔒 Privacy-first (all data stays on your device)
+**No Login • No Server • Privacy First**
 
 ---
 
-## 🖼 Preview
+![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)
+![Chrome](https://img.shields.io/badge/Chrome-Supported-green)
+![Brave](https://img.shields.io/badge/Brave-Supported-orange)
+![Privacy](https://img.shields.io/badge/Privacy-100%25_Local-success)
+![License](https://img.shields.io/badge/License-MIT-purple)
 
-> Screenshots will be added soon.
+</div>
 
 ---
 
-## 🚀 Installation
+# ✨ Features
 
-### Developer Mode
+## 👥 Followers Analysis
 
-1. Clone this repository
+- ✅ Not Following Back
+- ✅ Mutual Followers
+- ✅ Fans (They follow you, you don't follow them)
+- ✅ New Followers
+- ✅ New Following
+- ✅ Unfollowers Detection
+
+---
+
+## 📊 Dashboard
+
+- Statistics Overview
+- Search Users
+- Filter Accounts
+- Sort Results
+- Fast Performance
+
+---
+
+## 📁 Export
+
+- CSV Export
+- JSON Export
+
+---
+
+## 🔒 Privacy First
+
+Unlike many similar extensions:
+
+- ❌ No account login
+- ❌ No password required
+- ❌ No cloud server
+- ❌ No analytics
+- ❌ No tracking
+- ✅ Everything stays on your device
+
+---
+
+# 📸 Screenshots
+
+Coming Soon
+
+- Dashboard
+- Not Following Back
+- Fans
+- Unfollowers
+- Statistics
+
+---
+
+# 🚀 Installation
+
+## Install From Source
+
+Clone this repository
 
 ```bash
 git clone https://github.com/ellanfvnky/instagram-follow-checker.git
 ```
 
-2. Open Brave or Google Chrome
-
-3. Navigate to
+Open:
 
 ```
 brave://extensions
@@ -54,56 +97,135 @@ or
 chrome://extensions
 ```
 
-4. Enable **Developer Mode**
+Enable
 
-5. Click **Load unpacked**
+```
+Developer Mode
+```
 
-6. Select this project folder
+Click
 
-7. Open Instagram and enjoy 🎉
+```
+Load unpacked
+```
+
+Select the project folder.
+
+Done 🎉
 
 ---
 
-## 📦 Tech Stack
+# 🛠 Tech Stack
 
+- Manifest V3
 - JavaScript
 - HTML
 - CSS
 - Chrome Extension API
-- Manifest V3
 
 ---
 
-## 🔐 Privacy
+# 📂 Project Structure
 
-Instagram Follow Checker does **not**:
+```
+instagram-follow-checker/
 
-- Collect your personal data
-- Send data to any server
-- Require your Instagram password
-- Use third-party analytics
-
-All processing happens locally inside your browser.
-
----
-
-## ⚠️ Disclaimer
-
-This project is an independent browser extension and is **not affiliated with, endorsed by, or sponsored by Instagram or Meta**.
-
-Instagram is a trademark of Meta Platforms, Inc.
+├── assets/
+├── icons/
+├── background.js
+├── content.js
+├── dashboard.html
+├── popup.html
+├── manifest.json
+└── README.md
+```
 
 ---
 
-## 📄 License
+# ⚡ How It Works
+
+The extension works entirely inside your browser.
+
+1. Open Instagram
+2. Read Followers list
+3. Read Following list
+4. Compare both lists
+5. Detect:
+   - Not Following Back
+   - Fans
+   - Mutual
+6. Compare snapshots
+7. Detect:
+   - New Followers
+   - Unfollowers
+
+Everything is processed locally.
+
+---
+
+# 🔐 Privacy
+
+This extension never sends your Instagram data anywhere.
+
+No servers.
+
+No databases.
+
+No tracking.
+
+No analytics.
+
+No telemetry.
+
+---
+
+# 📈 Roadmap
+
+- [x] Not Following Back
+- [x] Fans
+- [x] Mutual
+- [x] Export CSV
+- [x] Export JSON
+- [x] Dashboard
+- [x] Snapshot System
+- [ ] Multiple Instagram Accounts
+- [ ] Import / Export Snapshot
+- [ ] Auto Snapshot
+- [ ] Backup Snapshot
+- [ ] Advanced Statistics
+- [ ] Localization
+- [ ] Chrome Web Store Release
+
+---
+
+# 🤝 Contributing
+
+Pull requests are welcome.
+
+If you find a bug or have a feature request, please open an Issue.
+
+---
+
+# ⚠️ Disclaimer
+
+This project is an independent browser extension.
+
+It is **not affiliated with, endorsed by, or sponsored by Instagram or Meta Platforms, Inc.**
+
+Instagram is a registered trademark of Meta Platforms, Inc.
+
+---
+
+# 📄 License
 
 MIT License
 
 ---
 
-## 👨‍💻 Author
+<div align="center">
 
 Made with ❤️ by **Ellan Fvnky**
 
-GitHub:
-https://github.com/ellanfvnky
+⭐ If you like this project, don't forget to leave a Star!
+
+</div>

@@ -25,6 +25,15 @@
       "run_at": "document_idle"
     }
   ],
-  "permissions": ["storage", "tabs", "alarms", "downloads"],
-  "host_permissions": ["https://www.instagram.com/*"]
+  "permissions": ["storage", "tabs", "alarms", "downloads", "declarativeNetRequest"],
+  "host_permissions": ["https://www.instagram.com/*", "*://*.cdninstagram.com/*", "*://*.fbcdn.net/*"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
 }
